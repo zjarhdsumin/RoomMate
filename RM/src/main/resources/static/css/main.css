@@ -1,0 +1,81 @@
+header {
+    height: 160px;
+}
+
+main {
+    clear: both;
+    background: bisque;
+    min-height: 700px;
+}
+
+footer {
+    clear : both;
+    margin-top: 5px;
+    height: 310px;
+    flex-direction: column;
+}
+
+img {
+    float : left;
+    margin : 10px;
+}
+
+a {
+    margin : 5px;
+    padding: 3px;
+    border-radius : 3px;
+    text-decoration-line: none;
+}
+
+.nav {
+    position: absolute;
+    top : 10px;
+    right: 0;
+}
+
+.fullname {
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 100px;
+}
+
+.buttonLightBlue {
+    background: lightskyblue;
+    color: black;
+}
+.buttonLightBlue:hover {
+    filter:brightness(0.5);
+}
+
+.buttonGreen {
+    background: lightgreen;
+    color: black;
+}
+
+.buttonGreen:hover {
+    filter:brightness(0.5);
+}
+
+.buttonPeach {
+    background: lightpink;
+    color: black;
+}
+
+.buttonPeach:hover{
+    filter:brightness(0.5);
+}
+
+
+.explanation {
+    align-items: center;
+    justify-content: space-between;
+    color: darkgray;
+    margin: 25px 5px 5px 5px;
+    display: flex;
+}
+
+.link{
+    text-align: right;
+    color: darkgray;
+}
+
