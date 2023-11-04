@@ -1,11 +1,16 @@
 header {
-    height: 160px;
+    height: 120px;
+}
+
+hr {
+    clear: both;
 }
 
 main {
     clear: both;
     background: bisque;
     min-height: 700px;
+    margin : 5px 5px 0 5px;
 }
 
 footer {
@@ -17,7 +22,6 @@ footer {
 
 img {
     float : left;
-    margin : 10px;
 }
 
 a {
@@ -33,10 +37,46 @@ a {
     right: 0;
 }
 
+.logo {
+    margin : 5px;
+}
+
 .fullname {
     text-align: center;
     padding: 10px 10px;
     font-size: 100px;
+}
+
+.aboutMe, .selectUser {
+    margin : 5px;
+    display: flex;
+    align-items: center;
+}
+
+.pushUser {
+    margin : 5px;
+    display: inline-grid;
+}
+
+.profileImg{
+    width: 300px;
+    height: 300px;
+    border-radius: 60%;
+    overflow: hidden;
+    margin : 15px 20px 5px 20px;
+}
+
+.profile {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.selfProfile {
+    border : 1px solid black;
+    word-break:break-all;
+    margin : 20px 10px 10px 15px;
 }
 
 .buttonLightBlue {
@@ -65,12 +105,11 @@ a {
     filter:brightness(0.5);
 }
 
-
 .explanation {
     align-items: center;
     justify-content: space-between;
     color: darkgray;
-    margin: 25px 5px 5px 5px;
+    margin: 20px 5px 5px 5px;
     display: flex;
 }
 
@@ -79,3 +118,10 @@ a {
     color: darkgray;
 }
 
+.userImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 60%;
+    overflow: hidden;
+    margin : 15px 20px 5px 20px;
+}
