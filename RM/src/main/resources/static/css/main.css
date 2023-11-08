@@ -13,6 +13,10 @@ main {
     margin : 5px 5px 0 5px;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 footer {
     clear : both;
     margin-top: 5px;
