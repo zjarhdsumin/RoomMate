@@ -13,7 +13,7 @@ spring:
       enabled: true
 
   thymeleaf:
-    cache: false
+    cache: false #default true (개발 시에는 false로 해서 수정 내용이 바로 반영되도록 함)
     enabled: true
     prefix: classpath:/templates/
     suffix: .html

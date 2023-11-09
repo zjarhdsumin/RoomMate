@@ -57,6 +57,10 @@ a {
     align-items: center;
 }
 
+.selfName {
+    display: none;
+}
+
 .pushUser {
     margin : 5px;
     display: inline-grid;
@@ -81,6 +85,22 @@ a {
     border : 1px solid black;
     word-break:break-all;
     margin : 20px 10px 10px 15px;
+}
+
+.flexLine {
+    display: flex;
+    margin : 5px;
+}
+
+.container {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.item {
+    flex-basis: auto;
 }
 
 .buttonLightBlue {
@@ -129,3 +149,5 @@ a {
     overflow: hidden;
     margin : 15px 20px 5px 20px;
 }
+
+
